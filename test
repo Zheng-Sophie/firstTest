@@ -1,0 +1,161 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+<title>Compass DigiBooks</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+	    <script async="" src="//www.google-analytics.com/analytics.js"></script><script language="javascript" type="text/javascript" src="/Common/Script/prototype-1.6.0.3.js"></script>
+        <script language="javascript" type="text/javascript" src="/Common/Script/extends-cs.js"></script>
+        <script language="javascript" type="text/javascript" src="/Common/Script/globals-cs.js"></script>
+        <script language="javascript" type="text/javascript" src="/Common/Script/json-2.0.0.js"></script>
+        <script language="javascript" type="text/javascript" src="/Common/Script/CM/CM.js"></script>
+        <script language="javascript" type="text/javascript" src="/Common/Script/CM/CM.System.js"></script>
+        <script language="javascript" type="text/javascript" src="/Common/Script/jquery-1.7.2.js"></script>
+        <script language="javascript" type="text/javascript" src="/Common/Script/jQuery/jquery.iframe-auto-height.plugin.1.5.0.min.js"></script>
+        <script language="javascript" type="text/javascript" src="/Common/Script/jQuery/jquery.cookie.js"></script>
+        <script language="javascript" type="text/javascript" src="/Common/Script/jQuery/jQuery.ui/jquery-ui-1.8.20.custom.min.js"></script>
+        <script language="javascript" type="text/javascript" src="/ComData/js/jquery.base64.min.js"></script>
+        <script language="javascript" type="text/javascript" src="/ComData/js/common.js"></script>
+        <script language="javascript" type="text/javascript">
+            var $j = jQuery.noConflict();
+            CM.System.name = "ReadingOceans";
+        </script>
+        <script language="javascript" type="text/javascript">
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-58524913-1', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+
+        <link href="/Common/CSS/core.css" rel="stylesheet" type="text/css">
+
+        
+
+<link rel="stylesheet" type="text/css" href="/ComData/css/default.css">
+<link rel="stylesheet" type="text/css" href="/ComData/css/member.css">
+
+
+<script type="text/javascript" src="/Common/Script/jQuery/jQuery.ui/jquery-ui-1.8.20.custom.min.js"></script></head>
+<body>
+
+<form method="post" action="./Login.aspx?rtnurl=%2fPages%2fBook%2fStudentMain.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="CONNECT_URL" id="CONNECT_URL" value="www.compassdigibooks.com">
+<input type="hidden" name="CK_RESOURCE_SERVER" id="CK_RESOURCE_SERVER" value="http://">
+<input type="hidden" name="CK_USER_ID" id="CK_USER_ID" value="">
+<input type="hidden" name="CK_USER_NAME" id="CK_USER_NAME" value="">
+<input type="hidden" name="CK_USER_SEQ" id="CK_USER_SEQ" value="">
+<input type="hidden" name="CK_USER_GUBUN" id="CK_USER_GUBUN" value="">
+<input type="hidden" name="CK_USER_STATUS" id="CK_USER_STATUS" value="">
+<input type="hidden" name="CK_PARAM" id="CK_PARAM" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY1NDU2MTA1MmRkD22bebqOSLZEo2jMRDz+1etaxFvuVFj/nopBgyL413Y=">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FF7FF923">
+</div>
+
+<div id="wrap">
+
+    <!-- ST : header -->
+    <div id="header">
+    	<ul class="topArea">
+        	<li class="fl" style="padding-left:15px;"><a href="/Index.aspx"><img src="/ComData/images/common/logo.gif" alt="Logo"></a></li>
+            
+            
+                <li class="fl mgl12 mgt15"><img src="/ComData/images/common/txt_onlinepractice.gif" alt="Online Practice"></li>
+            
+        </ul>
+    </div>
+    <!-- ED : header -->
+    
+  
+    <!--ST : GNB-->
+  	<div id="gnb">
+    	<div class="gnbArea">
+        	<!--p class="gnbBg"></p-->
+        	<ul class="gnbMenu">
+            
+                <!--li class="last"><a href="/Pages/Etc/Help.aspx" style="color:#ffffff;">HELP</a></li-->
+            </ul>
+        </div>
+  	</div>
+    <!--ED : GNB-->
+    
+    
+    <!-- ST : body -->
+    <div id="container">
+        
+
+        <!-- ST : Register -->
+       		<div id="login">
+           		<div class="fl loginArea">
+                    <p class="tac mgb45"><img src="/ComData/images/user/tit_login.gif" alt="Login"></p>
+                    <p><a href="#" onclick="login_facebook(); return false;"><img src="/ComData/images/user/btn_loginfacebook.gif" class="al_r"></a></p>
+                    <p class="mgt5"><a href="#" onclick="login_google(); return false;"><img src="/ComData/images/user/btn_logingoogle.gif" class="al_r"></a></p>
+                    <p class="mgt30 mgb30 tac">or</p>
+                    <p class="tac"><input type="text" name="email" id="email" class="join_input tac" value="Email"></p>
+                    <p class="mgt20 tac" id="p01"><input type="text" name="passwd_view" id="passwd_view" class="join_input tac" value="Password"></p>
+                    <p class="mgt20 tac" id="p02" style="display:none;"><input type="password" name="passwd" id="passwd" class="join_input tac" value=""></p>
+                    <p class="mgt20 tal" id="p03" style="margin-left:12px;"><input type="checkbox" name="rememberMe" id="rememberMe" class="mgr10" checked="checked">Remember me</p>
+                    <p class="mgt30 tac"><a href="#" onclick="login(); return false;"><img src="/ComData/images/user/btn_login.gif" alt="Log In"></a></p>
+                	<p class="mgt15 tac ft_size14 ft_red ft_italic"><a href="FindPassword.aspx">I forgot my password.</a></p>
+                </div>
+                <div class="fr registerArea">
+                    <p class="tac mgb45"><img src="/ComData/images/user/tit_register2.gif" alt="Register"></p>
+                    <p class="tac">I am a new user.</p>
+                    <p class="mgt20"><a href="RegisterUserStep1.aspx?memtype=1"><img src="/ComData/images/user/btn_student_register.gif" alt="Student Register"></a></p>
+                    <p class="mgt15 mgb10"><a href="RegisterUserStep1.aspx?memtype=euyr2dfd2"><img src="/ComData/images/user/btn_teacher_register.gif" alt="Teacher Register"></a></p>
+
+                    <p class="tac mgb30 mgt65"><img src="/ComData/images/user/tit_guides.png" alt="Guides"></p>
+                    <p class="mgt20"><a href="/Common/UserFiles/file/CompassDigiBooks_Guide_for_Studnets.pdf" target="_blank"><img src="/ComData/images/user/btn_student_guide.png" alt="Student Guides"></a></p>
+                    <p class="mgt15"><a href="/Common/UserFiles/file/CompassDigiBooks_Guide_for_Teachers.pdf" target="_blank"><img src="/ComData/images/user/btn_teacher_guide.png" alt="Teacher Guides"></a></p>
+                </div>
+
+                
+                    
+                
+            </div>
+    	<!-- ST : Register -->
+
+<!-- 시스템 점검 팝업 S-->
+<script type="text/javascript" src="https://www.santaclass.net/popup_sys/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript"> var newJquery = $.noConflict(true); </script>
+<script type="text/javascript" src="https://www.santaclass.net/popup_sys/popup_sys_multi.js?v12345"></script>
+<!-- 시스템 점검 팝업 E-->
+
+
+    </div>
+    <!-- ED : body -->
+
+    <!-- ST : Footer -->
+    <div id="footer">
+        <span class="copyright">Copyright Compass Media Co.,Ltd.</span>
+    </div>
+    <!-- ED : Footer -->
+
+
+</div>
+
+
+<script language="javascript" src="/Pages/User/Login.js"></script><script language="javascript" src="/Common/Script/CM/CM.Ajax.js"></script><script language="javascript" src="/Common/Script/CM/CM.XML.js"></script>
+<script language="javascript" src="/Common/Script/CM/CM.System.Progress.js"></script>
+<script language="javascript" src="/Common/Script/CM/CM.System.Message.js"></script>
+
+<script language="javascript" src="/Common/Script/CM/CM.Ajax.Common.js"></script>
+<script language="javascript" src="/Common/Script/CM/CM.Control.js"></script>
+<script language="javascript" src="/Common/Script/CM/CM.System.Message2.js"></script><link rel="stylesheet" href="/Common/Script/jQuery/jQuery.ui/css/custom/jquery-ui-1.8.20.custom.css" type="text/css"> 
+
+
+<script language="javascript" src="/Common/Script/CM/CM.UI.js"></script>
+
+</form>
+
+
+
+</body></html>
